@@ -7,7 +7,7 @@ public class IdGenerator {
 	private AtomicInteger lastId;
 	public IdGenerator() {
 		this.lastId = new AtomicInteger();
-		this.prefix = "";
+		this.prefix = "     ";
 		this.suffix = "";
 	}
 	public void init(String prefix, String suffix, int lastId) {
